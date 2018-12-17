@@ -1,8 +1,8 @@
 # Fribourg
 
-## These are the methods, that are of importance for you
+## These are the methods, that are of importance to you
 
-This reads the QR code.
+This code reads the QR code.
 
 ```Javascript
  handleQRCodeRead = result => {
@@ -11,7 +11,7 @@ This reads the QR code.
   };
 ```
 
-This will be called after the render when a QR Code has been read.
+This will be called after the render, when a QR Code has been read.
 
 ```Javascript
  maybeRenderUrl = () => {
@@ -49,7 +49,7 @@ This will be called after the render when a QR Code has been read.
   };
 ```
 
-This is called when the cancel button gets pressed, pretty obvious... right?
+This is called when the cancel button get's pressed, pretty obvious... right?
 
 ```Javascript
  cancel = () =>{
