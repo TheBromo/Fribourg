@@ -19,7 +19,7 @@ This will be called after the render when a QR Code has been read.
       return;
     }
     if(this.warningOpened){
-      //this prevents the alert to plob up multiple times
+      //this prevents the alert to pop up multiple times
       return;
     }else{
       this.warningOpened = true;
