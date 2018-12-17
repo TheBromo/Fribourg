@@ -20,7 +20,7 @@ export default class App extends Component {
     });
   };
 
-  handleBarCodeRead = result => {
+  handleQRCodeRead = result => {
     LayoutAnimation.spring();
     this.setState({ lastScannedUrl: result.data });
   };
@@ -35,7 +35,7 @@ export default class App extends Component {
               Camera permission is not granted
                 </Text>
             : <BarCodeScanner
-              onBarCodeRead={this.handleBarCodeRead}
+              onBarCodeRead={this.handleQRCodeRead}
               style={{
                 height: Dimensions.get('window').height,
                 width: Dimensions.get('window').width,
